@@ -66,7 +66,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
   // },
   {
     label: t('Future'),
-    href: '/Future',
+    href: '/prediction',
     icon: TrophyIcon,
     fillIcon: TrophyFillIcon,
     items: [
