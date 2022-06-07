@@ -33,78 +33,78 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         label: t('Swap'),
         href: '/swap',
       },
-      {
-        label: t('Limit'),
-        href: '/limit-orders',
-      },
-      {
-        label: t('Liquidity'),
-        href: '/liquidity',
-      },
-      {
-        label: t('Perpetual'),
-        href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT`,
-        type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
+      // {
+      //   label: t('Limit'),
+      //   href: '/limit-orders',
+      // },
+      // {
+      //   label: t('Liquidity'),
+      //   href: '/liquidity',
+      // },
+      // {
+      //   label: t('Perpetual'),
+      //   href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT`,
+      //   type: DropdownMenuItemType.EXTERNAL_LINK,
+      // },
     ],
   },
+  // {
+  //   label: t('Earn'),
+  //   href: '/farms',
+  //   icon: EarnIcon,
+  //   fillIcon: EarnFillIcon,
+  //   items: [
+  //     {
+  //       label: t('Farms'),
+  //       href: '/farms',
+  //     },
+  //     {
+  //       label: t('Pools'),
+  //       href: '/pools',
+  //     },
+  //   ],
+  // },
   {
-    label: t('Earn'),
-    href: '/farms',
-    icon: EarnIcon,
-    fillIcon: EarnFillIcon,
-    items: [
-      {
-        label: t('Farms'),
-        href: '/farms',
-      },
-      {
-        label: t('Pools'),
-        href: '/pools',
-      },
-    ],
-  },
-  {
-    label: t('Win'),
-    href: '/prediction',
+    label: t('Future'),
+    href: '/Future',
     icon: TrophyIcon,
     fillIcon: TrophyFillIcon,
     items: [
+      // {
+      //   label: t('Trading Competition'),
+      //   href: '/competition',
+      //   hideSubNav: true,
+      // },
       {
-        label: t('Trading Competition'),
-        href: '/competition',
-        hideSubNav: true,
-      },
-      {
-        label: t('Prediction (BETA)'),
+        label: t('Future(BETA)'),
         href: '/prediction',
       },
-      {
-        label: t('Lottery'),
-        href: '/lottery',
-      },
+      // {
+      //   label: t('Lottery'),
+      //   href: '/lottery',
+      // },
     ],
   },
-  {
-    label: t('NFT'),
-    href: `${nftsBaseUrl}`,
-    icon: NftIcon,
-    fillIcon: NftFillIcon,
-    items: [
-      {
-        label: t('Overview'),
-        href: `${nftsBaseUrl}`,
-      },
-      {
-        label: t('Collections'),
-        href: `${nftsBaseUrl}/collections`,
-      },
-      {
-        label: t('Activity'),
-        href: `${nftsBaseUrl}/activity`,
-      },
-    ],
-  },
+  // {
+  //   label: t('NFT'),
+  //   href: `${nftsBaseUrl}`,
+  //   icon: NftIcon,
+  //   fillIcon: NftFillIcon,
+  //   items: [
+  //     {
+  //       label: t('Overview'),
+  //       href: `${nftsBaseUrl}`,
+  //     },
+  //     {
+  //       label: t('Collections'),
+  //       href: `${nftsBaseUrl}/collections`,
+  //     },
+  //     {
+  //       label: t('Activity'),
+  //       href: `${nftsBaseUrl}/activity`,
+  //     },
+  //   ],
+  // },
   {
     label: '',
     href: '/info',
