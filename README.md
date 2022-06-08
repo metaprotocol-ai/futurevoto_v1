@@ -1,4 +1,4 @@
-# FUTURE VOTO  Frontend
+# FUTURE VOTO  Frontend v1
 
 This project contains the main features of the pancake application.
 
