@@ -34,18 +34,18 @@ const PerpetualBanner = () => {
     currentLanguage: { code },
   } = useTranslation()
   const { isDesktop } = useMatchBreakpoints()
-  const perpetualUrl = useMemo(() => `https://perp.pancakeswap.finance/${perpLangMap(code)}/futures/BTCUSDT`, [code])
+  const perpetualUrl = '/prediction'
 
   return (
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>{t('Perpetual Futures')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('Up to 100× Leverage')}</Header>
+          <S.StyledSubheading>{t('Future Voto - Just Push Up & Down')}</S.StyledSubheading>
+          <Header width={['160px', '160px', 'auto']}>{t('Get Money Every 5 Minutes')}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                {t('Trade Now')}
+                {t('Go to Play')}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>

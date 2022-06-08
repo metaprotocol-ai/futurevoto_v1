@@ -37,10 +37,10 @@ export const useMultipleBannerConfig = () => {
             shouldRender: isRenderCompetitionBanner,
             banner: <CompetitionBanner />,
           },
-          {
-            shouldRender: isRenderLotteryBanner,
-            banner: <LotteryBanner />,
-          },
+          // {
+          //   shouldRender: isRenderLotteryBanner,
+          //   banner: <LotteryBanner />,
+          // },
           {
             shouldRender: true,
             banner: <PerpetualBanner />,
