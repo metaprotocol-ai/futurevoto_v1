@@ -2,10 +2,9 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
-  description:
-    'The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://pancakeswap.finance/images/hero.png',
+  title: 'future.voto',
+  description: 'future.voto - A next evolution DeFi Application on BNB Smart Chain (BSC)',
+  image: 'https://beta.future.voto/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -106,17 +105,17 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
     case '/info':
       return {
         title: `${t('Overview')} | ${t('future.voto Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        description: 'View statistics for Future.voto exchanges.',
       }
     case '/info/pools':
       return {
         title: `${t('Pools')} | ${t('future.voto Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        description: 'View statistics for Future.voto exchanges.',
       }
     case '/info/tokens':
       return {
         title: `${t('Tokens')} | ${t('future.voto Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        description: 'View statistics for Future.voto exchanges.',
       }
     case '/nfts':
       return {
