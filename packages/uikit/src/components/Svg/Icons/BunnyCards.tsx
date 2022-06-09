@@ -14,7 +14,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           height="40"
           rx="5.33333"
           transform="matrix(-0.866025 -0.5 -0.5 0.866025 65.6667 24.29)"
-          fill="#7645D9"
+          fill="#9A7D0A"
         />
         {/* <path
           fillRule="evenodd"
@@ -31,7 +31,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           d="M33.7371 52.0434L43.094 46.6412C45.6449 45.1684 46.5189 41.9066 45.0461 39.3557L32.532 17.6807L20.6205 38.3121C19.1477 40.863 20.0217 44.1249 22.5726 45.5976L33.7371 52.0434Z"
           fill="#452A7A"
         />
-        <rect x="16" y="6.3335" width="32" height="40" rx="5.33333" fill="#9A6AFF" />
+        <rect x="16" y="6.3335" width="32" height="40" rx="5.33333" fill="#F1C40F" />
         {/* <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -50,7 +50,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           height="40"
           rx="5.33333"
           transform="rotate(-30 -1.66675 24.29)"
-          fill="#CAB3F8"
+          fill="#F9E79F"
         />
         {/* <path
           opacity="0.7"
