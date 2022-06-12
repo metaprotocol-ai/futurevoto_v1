@@ -68,8 +68,8 @@ export default {
     97: '0x45c54210128a065de780C4B0Df3d16664f7f859e',
   },
   predictions: {
-    // 56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA', // previous cotract(swap)
-    56: '0x20d09c1c44f49f104768d9ab4f596ff0f391d210',
+    56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA', // previous cotract(swap)
+    // 56: '0x20d09c1c44f49f104768d9ab4f596ff0f391d210',
     97: '0x20d09c1c44f49f104768d9ab4f596ff0f391d210',
   },
   chainlinkOracle: {
