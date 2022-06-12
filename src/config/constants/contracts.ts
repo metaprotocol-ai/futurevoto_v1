@@ -1,6 +1,6 @@
 export default {
   masterChef: {
-    97: '',
+    97: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
     56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
   },
   masterChefV1: {
@@ -57,7 +57,7 @@ export default {
   },
   tradingCompetitionMoD: {
     56: '0xbDd9a61c67ee16c10f5E37b1D0c907a9EC959f33',
-    97: '',
+    97: '0xbDd9a61c67ee16c10f5E37b1D0c907a9EC959f33',
   },
   easterNft: {
     56: '0x23c41D28A239dDCAABd1bb1deF8d057189510066',
@@ -65,23 +65,24 @@ export default {
   },
   cakeVault: {
     56: '0x45c54210128a065de780C4B0Df3d16664f7f859e',
-    97: '',
+    97: '0x45c54210128a065de780C4B0Df3d16664f7f859e',
   },
   predictions: {
-    56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA',
+    // 56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA', // previous cotract(swap)
+    56: '0x20d09c1c44f49f104768d9ab4f596ff0f391d210',
     97: '0x20d09c1c44f49f104768d9ab4f596ff0f391d210',
   },
   chainlinkOracle: {
     56: '0xD276fCF34D54A926773c399eBAa772C12ec394aC',
-    97: '',
+    97: '0xD276fCF34D54A926773c399eBAa772C12ec394aC',
   },
   bunnySpecialCakeVault: {
     56: '0x5B4a770Abe7Eafb2601CA4dF9d73EA99363E60a4',
-    97: '',
+    97: '0x5B4a770Abe7Eafb2601CA4dF9d73EA99363E60a4',
   },
   bunnySpecialPrediction: {
     56: '0x342c99e9aC24157657095eC69CB04b73257e7A9C',
-    97: '',
+    97: '0x342c99e9aC24157657095eC69CB04b73257e7A9C',
   },
   bunnySpecialLottery: {
     56: '0x24ED31d31C5868e5a96aA77fdcB890f3511fa0b2',
@@ -101,7 +102,7 @@ export default {
   },
   galaxyNftClaiming: {
     56: '0x2D18f2d27D50C9b4013DEBA3D54f60996bD8847E',
-    97: '',
+    97: '0x2D18f2d27D50C9b4013DEBA3D54f60996bD8847E',
   },
   nftMarket: {
     56: '0x17539cCa21C7933Df5c980172d22659B8C345C5A',

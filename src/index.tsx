@@ -8,9 +8,9 @@ import TransactionUpdater from './state/transactions/updater'
 export function Updaters() {
   return (
     <>
-      <ListsUpdater />
-      <TransactionUpdater />
-      <MulticallUpdater />
+      {/* <ListsUpdater /> */}
+      {/* <TransactionUpdater /> */}
+      {/* <MulticallUpdater /> */}
     </>
   )
 }
